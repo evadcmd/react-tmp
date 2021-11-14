@@ -6,6 +6,7 @@
   "author": "m-chiu@xware.co.jp",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-flow": "^7.16.0",
     "@babel/runtime": "^7.9.2",
     "@fullcalendar/core": "^4.4.0",
     "@fullcalendar/daygrid": "^4.4.0",
