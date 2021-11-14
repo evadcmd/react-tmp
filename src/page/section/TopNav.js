@@ -56,10 +56,10 @@ export default function TopNav({showConfig}) {
             <img src={`${contextPath}/image/xware.png`} width={130} height={38} />
         </IconBox>
         <Navbar.Brand>
-            {/*<Camera style={{cursor: 'default'}} />*/}surveillance-camera
+            <Camera style={{cursor: 'default'}} /> SCHEDULER DEMO
         </Navbar.Brand>
         <Nav className='mr-auto'>
-            <Nav.Link href='#features'>Version 1.4.0</Nav.Link>
+            <Nav.Link href='#features'>Version 0.0.0</Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
             <Navbar.Text style={{marginRight: '1rem'}}>

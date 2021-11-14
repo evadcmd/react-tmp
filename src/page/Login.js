@@ -26,13 +26,14 @@ const Body = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #343a40;
+    background-color: #f5f5f5;
 `
 const Img = styled.img`
     margin-left: -20px;
     margin-bottom: 5px;
 `
 const ScaledForm = styled(Form)`
+    border: 1px solid #cacccd;
     border-radius: 5px;
     width: 360px;
     padding: 20px;
@@ -42,7 +43,6 @@ const FormCheck = styled(Form.Check)`
     font-size: 12px;
 `
 const Panel = styled.h3`
-    color: #f7f7f7;
     margin-left: -5px;
     margin-bottom: 20px;
 `
@@ -54,7 +54,6 @@ const Sign = styled.div`
     bottom: 3px;
     right: 3px;
     font-size: 13px;
-    color: rgb(255, 102, 0);
 `
 
 function upsert(k, v) {
@@ -147,7 +146,7 @@ export default function Login() {
     }
 
         <Img src={`${contextPath}/image/xware.png`} width={252} height={74} />
-        <Panel><Camera /> surveillance-camera</Panel>
+        <Panel><Camera /> Camera Scheduler</Panel>
         <ScaledForm>
 
             <Form.Group controlId='USERNAME'>
@@ -216,6 +215,6 @@ export default function Login() {
             </Form.Group>
 
         </ScaledForm>
-        <Sign>Copyright © Xware Corporation. All Rights Reserved.</Sign>
+        <Sign>Copyright © EvadCMD Corporation. All Rights Reserved.</Sign>
     </Body>
 }

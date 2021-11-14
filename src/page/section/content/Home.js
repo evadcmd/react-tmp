@@ -129,7 +129,7 @@ export default function Home({refresh}) {
             </Alert>
         }
         </Row>
-        <h4>AI通信エラーログ</h4>
+        <h4>通信エラーログ</h4>
         {
             connectionAlerts ? connectionAlerts.length ? connectionAlerts.map(alert => <Alert
                 key={alert.id}

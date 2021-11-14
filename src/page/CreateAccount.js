@@ -59,7 +59,7 @@ export default function CreateAccount() {
         <ScaledForm>
 
             <Img src={`${contextPath}/image/xware.png`} width={170} height={50} />
-            <Header><Camera/> Surveillance Camera</Header>
+            <Header><Camera/> Camera Scheduler</Header>
             <SubHeader>アカウントの作成</SubHeader>
 
             <Form.Group as={Row} controlId='formHorizontalUsername'>

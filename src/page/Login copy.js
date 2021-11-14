@@ -161,6 +161,8 @@ export default function Login() {
             </Form.Group>
 
         </ScaledForm>
-        <Sign>Copyright © Xware Corporation. All Rights Reserved.</Sign>
+        {/*
+            <Sign>Copyright © Xware Corporation. All Rights Reserved.</Sign>
+        */}
     </Body>
 }
